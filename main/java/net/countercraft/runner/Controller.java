@@ -1,21 +1,19 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package net.countercraft.runner;
 
+//Java Imports
 import java.io.File;
+
+//Local Imports
 import net.countercraft.runner.config.Config;
 import net.countercraft.runner.managers.EventManager;
 import net.countercraft.runner.managers.FileManager;
 import net.countercraft.runner.managers.XMPPManager;
+
+//Bukkit Imports
 import org.bukkit.Server;
 import org.bukkit.plugin.PluginManager;
 
-/**
- *
- * @author alexanderchristie
- */
 public class Controller {
     
     public static Runner getPluginInstance(){

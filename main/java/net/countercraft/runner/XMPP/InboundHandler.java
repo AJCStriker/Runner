@@ -1,13 +1,17 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package net.countercraft.runner.XMPP;
 
+//Java Imports
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+//Local Imports
 import net.countercraft.runner.Controller;
+
+//Bukkit Imports
 import org.bukkit.World;
+
+//Jivesoftware Imports
 import org.jivesoftware.smack.Chat;
 import org.jivesoftware.smack.MessageListener;
 import org.jivesoftware.smack.XMPPException;

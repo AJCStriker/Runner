@@ -1,10 +1,10 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package net.countercraft.runner.listeners;
 
+//Local Imports
 import net.countercraft.runner.Controller;
+
+//Bukkit Imports
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.weather.WeatherChangeEvent;

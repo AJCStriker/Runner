@@ -1,6 +1,9 @@
 package net.countercraft.runner;
 
+//Java Imports
 import java.io.File;
+
+//Bukkit Imports
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Runner extends JavaPlugin {

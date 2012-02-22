@@ -1,8 +1,7 @@
 
 package net.countercraft.runner.managers;
 
-import com.sun.org.apache.xml.internal.serialize.OutputFormat;
-import com.sun.org.apache.xml.internal.serialize.XMLSerializer;
+//Java Imports
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -22,11 +21,9 @@ import org.bukkit.entity.Player;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.AttributesImpl;
+import com.sun.org.apache.xml.internal.serialize.OutputFormat;
+import com.sun.org.apache.xml.internal.serialize.XMLSerializer;
 
-/**
- *
- * @author alexanderchristie
- */
 public class ErrorManager {
     private int fileCount;
     private File errorLogFile = new File(Controller.getDataFolder() + "/errorReports");

@@ -1,9 +1,7 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package net.countercraft.runner.config;
 
+//Java Import
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -18,13 +16,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+//Local Imports
 import net.countercraft.runner.Controller;
+
+//Snakeyaml Imports
 import org.yaml.snakeyaml.Yaml;
 
-/**
- *
- * @author alexanderchristie
- */
 public class Config {
     private Map<String, Object> dataChain = new HashMap<String, Object>();
     

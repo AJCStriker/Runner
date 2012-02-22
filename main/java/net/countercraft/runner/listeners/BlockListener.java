@@ -1,19 +1,12 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package net.countercraft.runner.listeners;
 
-//Bukkit Imports
-
-//Local Package Imports
+//Local Imports
 import net.countercraft.runner.Controller;
-import net.countercraft.runner.Runner;
+
+//Bukkit Imports
 import org.bukkit.event.Listener;
-/**
- *
- * @author alexanderchristie
- */
+
 public class BlockListener implements Listener{
     
 

@@ -1,17 +1,13 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package net.countercraft.runner;
 
+//Java Imports
 import java.util.HashMap;
 import java.util.List;
+
+//Bukkit Imports
 import org.bukkit.World;
 
-/**
- *
- * @author alexanderchristie
- */
 public class Settings {
     public boolean OPEN_CHANNEL;
     public String USERNAME;

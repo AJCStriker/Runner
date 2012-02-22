@@ -1,15 +1,17 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package net.countercraft.runner.managers;
 
+//Java Imports
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+//Local Imports
 import net.countercraft.runner.Controller;
 import net.countercraft.runner.XMPP.InboundHandler;
+
+//Jivesoftware Imports
 import org.jivesoftware.smack.Chat;
 import org.jivesoftware.smack.ChatManager;
 import org.jivesoftware.smack.ChatManagerListener;
@@ -18,10 +20,6 @@ import org.jivesoftware.smack.SASLAuthentication;
 import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.XMPPException;
 
-/**
- *
- * @author alexanderchristie
- */
 public class XMPPManager {
     private List<Chat> connectionList = new ArrayList<Chat>();
     private ChatManager chatManager;

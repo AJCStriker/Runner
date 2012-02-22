@@ -1,18 +1,12 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package net.countercraft.runner.managers;
 
+//Local Imports
 import net.countercraft.runner.listeners.BlockListener;
 import net.countercraft.runner.listeners.EntityListener;
 import net.countercraft.runner.listeners.PlayerListener;
 import net.countercraft.runner.listeners.WeatherListener;
 
-/**
- *
- * @author alexanderchristie
- */
 public class EventManager {
     private BlockListener blockListener;
     private EntityListener entitylistener;
