@@ -1,0 +1,9 @@
+author: AJCStriker
+database: false
+description: ' A free, lightweight and open source GTalk connector for a bukkit server.'
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: net.countercraft.runner.Runner
+name: Runner
+startup: postworld
+url: http://countercraft.net/
+version: '2.1 R'
